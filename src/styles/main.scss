@@ -14,7 +14,8 @@ body {
   width: 100px;
   position: relative;
   top: 0;
-  margin: 0 0 1px 1px;
+  margin-right: 1px;
+  margin-bottom: 1px;
   line-height: 100px;
   text-align: center;
   background-color: #eee;
@@ -57,6 +58,6 @@ body {
 $week: "mon" 0, "tue" 1, "wed" 2, "thu" 3, "fri" 4, "sat" 5, "sun" 6;
 @each $day, $dayvalue in $week {
   .calendar-#{$day} div:first-child {
-    margin-left: #{$dayvalue + $dayvalue * 100px + 1};
+    margin-left: #{$dayvalue + $dayvalue * 100px};
   }
 }
