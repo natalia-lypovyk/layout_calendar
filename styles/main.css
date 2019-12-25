@@ -138,24 +138,24 @@ body {
     cursor: pointer; }
 
 .calendar-mon div:first-child {
-  margin-left: 0px; }
+  margin-left: 1px; }
 
 .calendar-tue div:first-child {
-  margin-left: 101px; }
+  margin-left: 102px; }
 
 .calendar-wed div:first-child {
-  margin-left: 202px; }
+  margin-left: 203px; }
 
 .calendar-thu div:first-child {
-  margin-left: 303px; }
+  margin-left: 304px; }
 
 .calendar-fri div:first-child {
-  margin-left: 404px; }
+  margin-left: 405px; }
 
 .calendar-sat div:first-child {
-  margin-left: 505px; }
+  margin-left: 506px; }
 
 .calendar-sun div:first-child {
-  margin-left: 606px; }
+  margin-left: 607px; }
 
 /*# sourceMappingURL=main.css.map */
