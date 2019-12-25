@@ -24,7 +24,8 @@ body {
     width: 100px;
     position: relative;
     top: 0;
-    margin: 0 0 1px 1px;
+    margin-right: 1px;
+    margin-bottom: 1px;
     line-height: 100px;
     text-align: center;
     background-color: #eee;
@@ -37,7 +38,8 @@ body {
     width: 100px;
     position: relative;
     top: 0;
-    margin: 0 0 1px 1px;
+    margin-right: 1px;
+    margin-bottom: 1px;
     line-height: 100px;
     text-align: center;
     background-color: #eee;
@@ -50,7 +52,8 @@ body {
     width: 100px;
     position: relative;
     top: 0;
-    margin: 0 0 1px 1px;
+    margin-right: 1px;
+    margin-bottom: 1px;
     line-height: 100px;
     text-align: center;
     background-color: #eee;
@@ -63,7 +66,8 @@ body {
     width: 100px;
     position: relative;
     top: 0;
-    margin: 0 0 1px 1px;
+    margin-right: 1px;
+    margin-bottom: 1px;
     line-height: 100px;
     text-align: center;
     background-color: #eee;
@@ -138,24 +142,24 @@ body {
     cursor: pointer; }
 
 .calendar-mon div:first-child {
-  margin-left: 1px; }
+  margin-left: 0px; }
 
 .calendar-tue div:first-child {
-  margin-left: 102px; }
+  margin-left: 101px; }
 
 .calendar-wed div:first-child {
-  margin-left: 203px; }
+  margin-left: 202px; }
 
 .calendar-thu div:first-child {
-  margin-left: 304px; }
+  margin-left: 303px; }
 
 .calendar-fri div:first-child {
-  margin-left: 405px; }
+  margin-left: 404px; }
 
 .calendar-sat div:first-child {
-  margin-left: 506px; }
+  margin-left: 505px; }
 
 .calendar-sun div:first-child {
-  margin-left: 607px; }
+  margin-left: 606px; }
 
 /*# sourceMappingURL=main.css.map */
