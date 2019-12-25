@@ -13,73 +13,57 @@ body {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  width: 720px;
+  width: 710px;
   margin: 0 auto;
   padding-top: 50px; }
   .calendar div {
     display: none; }
-  .calendar-tue div:first-child {
-    margin-left: 102px; }
-  .calendar-wed div:first-child {
-    margin-left: 203px; }
-  .calendar-thu div:first-child {
-    margin-left: 304px; }
-  .calendar-fri div:first-child {
-    margin-left: 405px; }
-  .calendar-sat div:first-child {
-    margin-left: 506px; }
-  .calendar-sun div:first-child {
-    margin-left: 607px; }
-  .calendar-28 div:nth-child(n - 28) {
+  .calendar-28 div:nth-child(-n + 28) {
     display: block;
     height: 100px;
     width: 100px;
     position: relative;
     top: 0;
-    margin-left: 1px;
-    margin-bottom: 1px;
+    margin: 0 0 1px 1px;
     line-height: 100px;
     text-align: center;
     background-color: #eee;
     border: 1px solid black;
     -webkit-transition: top 0.5s, background-color 0.5s;
     transition: top 0.5s, background-color 0.5s; }
-  .calendar-29 div:nth-child(n - 29) {
+  .calendar-29 div:nth-child(-n + 29) {
     display: block;
     height: 100px;
     width: 100px;
     position: relative;
     top: 0;
-    margin-left: 1px;
-    margin-bottom: 1px;
+    margin: 0 0 1px 1px;
     line-height: 100px;
     text-align: center;
     background-color: #eee;
     border: 1px solid black;
     -webkit-transition: top 0.5s, background-color 0.5s;
     transition: top 0.5s, background-color 0.5s; }
-  .calendar-30 div:nth-child(n - 30) {
+  .calendar-30 div:nth-child(-n + 30) {
     display: block;
     height: 100px;
     width: 100px;
     position: relative;
     top: 0;
-    margin-left: 1px;
-    margin-bottom: 1px;
+    margin: 0 0 1px 1px;
     line-height: 100px;
     text-align: center;
     background-color: #eee;
     border: 1px solid black;
     -webkit-transition: top 0.5s, background-color 0.5s;
     transition: top 0.5s, background-color 0.5s; }
-  .calendar-31 div:nth-child(n - 31) {
+  .calendar-31 div:nth-child(-n + 31) {
     display: block;
     height: 100px;
     width: 100px;
     position: relative;
     top: 0;
-    margin-left: 1px;
-    margin-bottom: 1px;
+    margin: 0 0 1px 1px;
     line-height: 100px;
     text-align: center;
     background-color: #eee;
@@ -152,5 +136,26 @@ body {
     top: -20px;
     background-color: pink;
     cursor: pointer; }
+
+.calendar-mon div:first-child {
+  margin-left: 0px; }
+
+.calendar-tue div:first-child {
+  margin-left: 101px; }
+
+.calendar-wed div:first-child {
+  margin-left: 202px; }
+
+.calendar-thu div:first-child {
+  margin-left: 303px; }
+
+.calendar-fri div:first-child {
+  margin-left: 404px; }
+
+.calendar-sat div:first-child {
+  margin-left: 505px; }
+
+.calendar-sun div:first-child {
+  margin-left: 606px; }
 
 /*# sourceMappingURL=main.css.map */
