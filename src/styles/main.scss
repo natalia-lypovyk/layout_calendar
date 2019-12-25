@@ -23,7 +23,7 @@ body {
   text-align: center;
   background-color: #eee;
   border: 1px solid black;
-  transition: top 0.5s ease-in-out;
+  transition: top 0.5s, background-color 0.5s;
 }
 
 .calendar {
@@ -58,7 +58,6 @@ body {
   div:hover {
     top: -20px;
     background-color: pink;
-    transition: top 0.5s ease-in-out;
     cursor: pointer;
   }
 }
