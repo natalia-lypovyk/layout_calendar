@@ -42,8 +42,8 @@ body {
     text-align: center;
     background-color: #eee;
     border: 1px solid black;
-    -webkit-transition: top 0.5s ease-in-out;
-    transition: top 0.5s ease-in-out; }
+    -webkit-transition: top 0.5s, background-color 0.5s;
+    transition: top 0.5s, background-color 0.5s; }
   .calendar-29 div:nth-child(n - 29) {
     display: block;
     height: 100px;
@@ -56,8 +56,8 @@ body {
     text-align: center;
     background-color: #eee;
     border: 1px solid black;
-    -webkit-transition: top 0.5s ease-in-out;
-    transition: top 0.5s ease-in-out; }
+    -webkit-transition: top 0.5s, background-color 0.5s;
+    transition: top 0.5s, background-color 0.5s; }
   .calendar-30 div:nth-child(n - 30) {
     display: block;
     height: 100px;
@@ -70,8 +70,8 @@ body {
     text-align: center;
     background-color: #eee;
     border: 1px solid black;
-    -webkit-transition: top 0.5s ease-in-out;
-    transition: top 0.5s ease-in-out; }
+    -webkit-transition: top 0.5s, background-color 0.5s;
+    transition: top 0.5s, background-color 0.5s; }
   .calendar-31 div:nth-child(n - 31) {
     display: block;
     height: 100px;
@@ -84,8 +84,8 @@ body {
     text-align: center;
     background-color: #eee;
     border: 1px solid black;
-    -webkit-transition: top 0.5s ease-in-out;
-    transition: top 0.5s ease-in-out; }
+    -webkit-transition: top 0.5s, background-color 0.5s;
+    transition: top 0.5s, background-color 0.5s; }
   .calendar div:nth-child(1)::after {
     content: "1"; }
   .calendar div:nth-child(2)::after {
@@ -151,8 +151,6 @@ body {
   .calendar div:hover {
     top: -20px;
     background-color: pink;
-    -webkit-transition: top 0.5s ease-in-out;
-    transition: top 0.5s ease-in-out;
     cursor: pointer; }
 
 /*# sourceMappingURL=main.css.map */
