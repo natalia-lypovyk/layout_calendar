@@ -30,8 +30,8 @@ body {
   display: flex;
   flex-wrap: wrap;
   width: 720px;
-  padding-top: 20px;
   margin: 0 auto;
+  padding-top: 50px;
 
   div {
     display: none;
@@ -44,7 +44,7 @@ body {
   }
 
   @for $i from 28 through 31 {
-    &-#{$i} div:nth-child(-n + #{$i}) {
+    &-#{$i} div:nth-child(n - #{$i}) {
       @include block;
     }
   }
