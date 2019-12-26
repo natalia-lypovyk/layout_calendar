@@ -53,9 +53,9 @@ body {
   }
 }
 
-$week: "mon", "tue", "wed", "thu", "fri", "sat", "sun";
-@each $day, $dayvalue in $week {
-  .calendar-#{nth($day, $i)} div:first-child {
-    margin-left: #{$dayvalue + $dayvalue * 100px};
+$week: "tue", "wed", "thu", "fri", "sat", "sun";
+@for $i from 1 through 6 {
+  .calendar-#{nth($week, $i)} div:first-child {
+    margin-left: #{$i + $i * 100px};
   }
 }
