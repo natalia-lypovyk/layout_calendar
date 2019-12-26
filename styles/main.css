@@ -134,9 +134,6 @@ body {
     -webkit-transform: translateY(-20px);
             transform: translateY(-20px); }
 
-.calendar-mon div:first-child {
-  margin-left: 0px; }
-
 .calendar-tue div:first-child {
   margin-left: 101px; }
 
